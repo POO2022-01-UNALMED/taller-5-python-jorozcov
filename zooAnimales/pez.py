@@ -1,4 +1,4 @@
-import zooAnimales.animal
+from animal import Animal
 
 
 class Pez(Animal):
