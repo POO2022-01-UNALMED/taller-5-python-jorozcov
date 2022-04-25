@@ -43,3 +43,4 @@ class Mamifero(Animal):
     def crearLeon(cls, nombre, edad, genero):
         Mamifero.leones += 1
         return Mamifero(nombre, edad, "selva", genero, True,4)
+

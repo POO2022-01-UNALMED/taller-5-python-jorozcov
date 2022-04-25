@@ -39,3 +39,4 @@ class Ave(Animal):
     def crearAguila(cls, nombre, edad, genero):
         Ave.aguilas += 1
         return Ave(nombre, edad, "montanas", genero, "blanco y amarillo")
+        

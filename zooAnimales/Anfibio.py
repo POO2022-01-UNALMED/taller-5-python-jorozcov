@@ -46,3 +46,4 @@ class Anfibio(Animal):
     def crearSalamandra(cls, nombre, edad, genero):
         Anfibio.salamandras += 1
         return Anfibio(nombre, edad, "selva", genero, "negro y amarillo",False)
+        

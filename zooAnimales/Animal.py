@@ -55,3 +55,4 @@ class Animal:
 
     def __str__(self):
         return "Mi nombre es "+self._nombre+", tengo una edad de "+self._edad+", habito en "+self._habitat + " y mi genero es "+self._genero
+
