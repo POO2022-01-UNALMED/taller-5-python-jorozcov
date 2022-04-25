@@ -1,9 +1,8 @@
 class Zona:
 
-    def __init__(self, nombre, zoo, animales):
+    def __init__(self, nombre, zoo = ""):
         self._nombre = nombre
         self._zoo = zoo
-        self._animales = animales
 
     def getNombre(self):
         return self.nombre
