@@ -1,3 +1,4 @@
+
 class Animal:
     _totalAnimales = 0
 
@@ -39,8 +40,13 @@ class Animal:
 
     @classmethod
     def totalPorTipo(cls):
+        from zooAnimales.anfibio import Anfibio
+        from zooAnimales.ave import Ave
+        from zooAnimales.mamifero import Mamifero
+        from zooAnimales.pez import Pez
+        from zooAnimales.reptil import Reptil
         return "Mamiferos: {}\nAves: {}\nReptiles: {}\nPeces: {}\nAnfibios: {}".format(Mamifero.cantidadMamiferos(),Ave.cantidadAves(),
-        Reptil.cantidadReptiles(),Pez.cantidadPEces(),Anfibio.cantidadAnfibios())
+        Reptil.cantidadReptiles(),Pez.cantidadPeces(),Anfibio.cantidadAnfibios())
 
     def movimiento(self):
         return "desplazaarse"
