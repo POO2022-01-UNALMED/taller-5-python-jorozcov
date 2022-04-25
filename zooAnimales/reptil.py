@@ -1,4 +1,4 @@
-from animal import Animal
+import zooAnimales.animal
 
 
 class Reptil(Animal):
