@@ -1,6 +1,3 @@
-from animal import Animal
-
-
 class Reptil(Animal):
     iguanas = 0
     serpientes = 0

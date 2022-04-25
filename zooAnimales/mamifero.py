@@ -1,6 +1,3 @@
-from animal import Animal
-
-
 class Mamifero(Animal):
     caballos = 0
     leones = 0
